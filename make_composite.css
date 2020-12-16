@@ -1,0 +1,18 @@
+html {
+  background-color: hotpink; 
+}
+h1 {
+  font-family: cursive; 
+  font-size: 40px; 
+}
+canvas {
+  width: 300px; 
+  height:200px; 
+  border: 2px solid; 
+  background-color: white; 
+}
+
+p {
+  font-size:26px;
+  font-weight: bold; 
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    
+<html lang="en">
+    <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Composite Image</title>
+    <link rel="stylesheet" type="text/css" href="make_composite.css">
+    
+    </head>
+    <body>
+        <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+
+        <h1>Make a Composite Image</h1>
+
+        <canvas id=canvas></canvas>
+
+        <canvas id=canvas2></canvas>
+
+        <p>
+            Foreground
+            <input id='fgFile' type='file' multiple='false' accept='image/*' onchange='upload()'>
+        </p>
+
+
+        <p>
+            Background
+            <input id='bgFile' type='file' multiple='false' accept='image/*' onchange=upload2()>
+        </p>
+
+        <p>
+            <input id='composite' type='button' value="Create Composite" onclick='makeComposite()'>
+
+            <input id='clear_imgs' type='button' value='Clear Images' onclick='clearImages()'>
+        </p>
+    </body>
+</html>
